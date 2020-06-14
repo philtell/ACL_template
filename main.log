@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.9)  13 JUN 2020 19:42
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.9)  14 JUN 2020 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,7 +1366,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 File: p1.png Graphic file (type bmp)
 <p1.png>
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 21--24
+Overfull \hbox (5.0pt too wide) in paragraph at lines 22--25
 [] 
  []
 
@@ -1376,7 +1376,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: p2.png Graphic file (type bmp)
 <p2.png>
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 28--30
+Overfull \hbox (5.0pt too wide) in paragraph at lines 29--31
 [] 
  []
 
@@ -1387,42 +1387,45 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 28--30
 File: p3.png Graphic file (type bmp)
 <p3.png>
 
-Underfull \hbox (badness 2781) in paragraph at lines 58--60
+Underfull \hbox (badness 2781) in paragraph at lines 59--61
 []\TU/lmr/m/n/10.53937 LSTM \TU/FandolSong-Regular(0)/m/n/10.53937 也 具 有 这 种 类 
 似 链 的 结 构，|  但
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 58--60
+Underfull \hbox (badness 3168) in paragraph at lines 59--61
 \TU/FandolSong-Regular(0)/m/n/10.53937 重 复 模 块 具 有 不 同 的 结 构，|  如 下 图 所 示。|
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 58--60
+Overfull \hbox (5.0pt too wide) in paragraph at lines 59--61
 [] 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10.5393
 7> not available
 (Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on
- input line 68.
-[2]
+ input line 69.
+ [2]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.71 ...率keepProb、优化器衰减系数WEIGHT_
+l.72 ...率keepProb、优化器衰减系数WEIGHT_
                                                   DECAY等；
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 71.
+(Font)              size <10.95> substituted on input line 72.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.72 \par
+l.73 \par
           2、
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1434,54 +1437,54 @@ Missing character: There is no σ in font [lmroman10-regular]:mapping=tex-text;!
 File: p10.png Graphic file (type bmp)
 <p10.png>
 
-Underfull \hbox (badness 3108) in paragraph at lines 123--126
+Underfull \hbox (badness 3108) in paragraph at lines 124--127
 []\TU/FandolSong-Regular(0)/m/n/10.53937 实 验 过 程 主 要 调 整 的 参 数 是 \TU/lmr/m/n/10
 .53937 Dropout
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 123--126
+Underfull \hbox (badness 6063) in paragraph at lines 124--127
 \TU/FandolSong-Regular(0)/m/n/10.53937 的 比 例、|  隐 藏 层 的 数 量、|  训 练 次 数。|  以
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 123--126
+Underfull \hbox (badness 6252) in paragraph at lines 124--127
 \TU/FandolSong-Regular(0)/m/n/10.53937 下 是 实 验 过 程 中 尝 试 几 组 参 数 的 结 果：|
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 123--126
+Overfull \hbox (5.0pt too wide) in paragraph at lines 124--127
 [] 
  []
 
 File: p11.png Graphic file (type bmp)
 <p11.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
 []\TU/FandolSong-Regular(0)/m/n/10.53937 以 下 是 训 练 过 程 中 的 准 确 率 曲 线：|
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 127--129
+Overfull \hbox (5.0pt too wide) in paragraph at lines 128--130
 [] 
  []
 
 File: p12.png Graphic file (type bmp)
 <p12.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 []\TU/FandolSong-Regular(0)/m/n/10.53937 以 下 是 训 练 过 程 中 的 \TU/lmr/m/n/10.53937
  loss \TU/FandolSong-Regular(0)/m/n/10.53937 曲 线
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 131--133
+Overfull \hbox (5.0pt too wide) in paragraph at lines 132--134
 [] 
  []
 
 [4]
 ! Misplaced alignment tab character &.
-l.139 ... Methods in Natural Language Processing &
+l.140 ... Methods in Natural Language Processing &
                                                    International Joint Confe...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1491,12 +1494,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 142--143
+Underfull \hbox (badness 1496) in paragraph at lines 143--144
 []\TU/lmr/m/n/10.53937 Li,Zheng.;Li,Xin.;Wei,Ying., etal. Transfer-
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 142--143
+Underfull \hbox (badness 3601) in paragraph at lines 143--144
 \TU/lmr/m/n/10.53937 able End-to-End Aspect-based Sentiment
  []
 
