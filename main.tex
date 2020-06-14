@@ -25,8 +25,7 @@
 
 
 \section{数据预处理}
-由于训练数据集的内容和标签的数据集中id字段不一致、三个数据集存在较多标点符号和无用符号、存在停用词、存在title和content字段分开等问题，所以在预处理阶段所做的主要工作有：提取共有的内容、清理数据集的标点符号和英文字符、对数据集进行分词、去停用词、合并title和content字段。
-\par 训练集结构结构展示如下图1所示：\\
+由于训练数据集的内容和标签的数据集中id字段不一致、三个数据集存在较多标点符号和无用符号、存在停用词、存在title和content字段分开等问题，所以在预处理阶段所做的主要工作有：提取共有的内容、清理数据集的标点符号和英文字符、对数据集进行分词、去停用词、合并title和content字段。训练集结构结构展示如下图1所示：\\
 \includegraphics[width=0.5\textwidth]{p2.png}
 \caption{图1训练集结构结构展示图}
 \label{fig:label}
@@ -126,12 +125,14 @@ Accuracy=\frac{T_{pos}+T_{neu}+T_{neg}}{D_{test}}
 以下是实验过程中尝试几组参数的结果：
 \includegraphics[width=0.5\textwidth]{p10.png}
 \par 由此可见，当Dropout为0.2，隐藏层数量为128，训练次数为70时效果训练集与验证集的效果最好。
-\par 以下是训练过程中的准确率曲线：
+\par 以下是训练过程中的准确率曲线如下图3所示：
 \includegraphics[width=0.5\textwidth]{p11.png}
+图3 准确率曲线图
 
 \subsection{LOSS曲线}
-\par 以下是训练过程中的loss曲线
+\par 以下是训练过程中的loss曲线如下图4所示
 \includegraphics[width=0.5\textwidth]{p12.png}
+图4 Loss曲线图
 
 
 \begin{thebibliography}{99}  
