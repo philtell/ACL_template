@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.9)  14 JUN 2020 10:12
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.6.9)  14 JUN 2020 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1376,8 +1376,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: p2.png Graphic file (type bmp)
 <p2.png>
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 29--31
-[] 
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \caption
+             {图1训练集结构结构展示图}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 29--33
+[]
  []
 
 [1
@@ -1387,45 +1400,53 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 29--31
 File: p3.png Graphic file (type bmp)
 <p3.png>
 
-Underfull \hbox (badness 2781) in paragraph at lines 59--61
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \caption
+             {图2 LSTM结构图}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 61--64
 []\TU/lmr/m/n/10.53937 LSTM \TU/FandolSong-Regular(0)/m/n/10.53937 也 具 有 这 种 类 
 似 链 的 结 构，|  但
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 59--61
-\TU/FandolSong-Regular(0)/m/n/10.53937 重 复 模 块 具 有 不 同 的 结 构，|  如 下 图 所 示。|
+Overfull \hbox (5.0pt too wide) in paragraph at lines 61--64
+[]
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 59--61
-[] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2809) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TU/FandolSong-Regular(0)/m/sl' in size <10.5393
 7> not available
 (Font)              Font shape `TU/FandolSong-Regular(0)/m/it' tried instead on
- input line 69.
+ input line 72.
  [2]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.72 ...率keepProb、优化器衰减系数WEIGHT_
+l.73 ...率keepProb、优化器衰减系数WEIGHT_
                                                   DECAY等；
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 72.
+(Font)              size <10.95> substituted on input line 73.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.73 \par
+l.74 \par
           2、
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1437,54 +1458,54 @@ Missing character: There is no σ in font [lmroman10-regular]:mapping=tex-text;!
 File: p10.png Graphic file (type bmp)
 <p10.png>
 
-Underfull \hbox (badness 3108) in paragraph at lines 124--127
+Underfull \hbox (badness 3108) in paragraph at lines 125--128
 []\TU/FandolSong-Regular(0)/m/n/10.53937 实 验 过 程 主 要 调 整 的 参 数 是 \TU/lmr/m/n/10
 .53937 Dropout
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 124--127
+Underfull \hbox (badness 6063) in paragraph at lines 125--128
 \TU/FandolSong-Regular(0)/m/n/10.53937 的 比 例、|  隐 藏 层 的 数 量、|  训 练 次 数。|  以
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 124--127
+Underfull \hbox (badness 6252) in paragraph at lines 125--128
 \TU/FandolSong-Regular(0)/m/n/10.53937 下 是 实 验 过 程 中 尝 试 几 组 参 数 的 结 果：|
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 124--127
+Overfull \hbox (5.0pt too wide) in paragraph at lines 125--128
 [] 
  []
 
 File: p11.png Graphic file (type bmp)
 <p11.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--130
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 []\TU/FandolSong-Regular(0)/m/n/10.53937 以 下 是 训 练 过 程 中 的 准 确 率 曲 线：|
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 128--130
+Overfull \hbox (5.0pt too wide) in paragraph at lines 129--131
 [] 
  []
 
 File: p12.png Graphic file (type bmp)
 <p12.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 []\TU/FandolSong-Regular(0)/m/n/10.53937 以 下 是 训 练 过 程 中 的 \TU/lmr/m/n/10.53937
  loss \TU/FandolSong-Regular(0)/m/n/10.53937 曲 线
  []
 
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 132--134
+Overfull \hbox (5.0pt too wide) in paragraph at lines 133--135
 [] 
  []
 
 [4]
 ! Misplaced alignment tab character &.
-l.140 ... Methods in Natural Language Processing &
+l.141 ... Methods in Natural Language Processing &
                                                    International Joint Confe...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1494,12 +1515,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 143--144
+Underfull \hbox (badness 1496) in paragraph at lines 144--145
 []\TU/lmr/m/n/10.53937 Li,Zheng.;Li,Xin.;Wei,Ying., etal. Transfer-
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 143--144
+Underfull \hbox (badness 3601) in paragraph at lines 144--145
 \TU/lmr/m/n/10.53937 able End-to-End Aspect-based Sentiment
  []
 
@@ -1512,10 +1533,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 21337 strings out of 494517
- 458031 string characters out of 6166426
+ 21338 strings out of 494517
+ 458042 string characters out of 6166426
  501092 words of memory out of 5000000
- 25066 multiletter control sequences out of 15000+600000
+ 25067 multiletter control sequences out of 15000+600000
  535574 words of font info for 65 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
  57i,7n,74p,10410b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
